@@ -1,0 +1,21 @@
+.progress-bar-container {
+    width: 100%; /* 容器宽度 */
+    background-color: #e0e0e0; /* 背景色 */
+    border-radius: 5px; /* 圆角 */
+    position: relative; /* 为绝对定位提供参考 */
+}
+
+.progress-bar {
+    height: 20px; /* 高度可以根据需求调整 */
+    background-color: #76c7c0; /* 填充色 */
+    border-radius: 5px; /* 圆角 */
+    transition: width 0.2s; /* 平滑过渡 */
+}
+
+.progress-text {
+    position: absolute; /* 绝对定位文本 */
+    width: 100%; /* 让文本居中 */
+    text-align: center; /* 居中对齐 */
+    top: 0; /* 调整文本位置 */
+    line-height: 20px; /* 让文本垂直居中 */
+}

@@ -1,0 +1,42 @@
+.drop-zone {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s; /* 添加阴影过渡 */
+    cursor: pointer;
+}
+
+.drop-zone.hovered {
+    background-color: #e9ecef;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* 添加阴影效果 */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* FileDropZone.css */
+.preview-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.preview-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px;
+    border: 1px solid #ccc;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: opacity 0.3s; /* 添加过渡效果 */
+}
